@@ -7,7 +7,7 @@ before_install:
     - sudo apt-get install bitcoind python-qt4
 
 install:
-    - python setup.py install
+    - sudo python setup.py install
 
 script:
     - python -m unittest discover
