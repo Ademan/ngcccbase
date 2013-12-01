@@ -3,8 +3,8 @@ language: python
     - "2.7"
 
 before_install:
-    - apt-get update
-    - apt-get install bitcoind python-qt4
+    - sudo apt-get update
+    - sudo apt-get install bitcoind python-qt4
 
 install:
     - python setup.py install
